@@ -89,6 +89,22 @@ textarea.form-control {
     color: darkred;
 }
 
+.jumbotron {
+    display: flex;
+    overflow: hidden;
+    max-height: 230px;
+    padding: 0;
+}
+
+nav {
+    opacity: 0.8;
+}
+
+
+.jumbotron img{
+    width: 100%;
+}
+
 .card .card-title {
     overflow: hidden;
    text-overflow: ellipsis;
