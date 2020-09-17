@@ -15,15 +15,15 @@
 <body>
     <!-- Todas las siguientes clases son necesarias para una navbar responsive -->
     <!-- la clase navbar-expand-md puede cambiar al final por md/sm/lg -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a href="#" class="navbar-brand">Compu Components</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarItemsContainer">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarItemsContainer">
             <ul class="navbar-nav mr-autop">
-                <li class="nav-item active"><a href="./index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="./monitores.html" class="nav-link">Monitores</a></li>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="./monitores.html" class="nav-link">Monitores</a></li>
                 <li class="nav-item"><a href="./torres.html" class="nav-link">Torres</a></li>
                 <li class="nav-item"><a href="./cpu.html" class="nav-link">Procesadores</a></li>
                 <li class="nav-item"><a href="./gpu.html" class="nav-link">Tarjetas de video</a></li>
@@ -41,10 +41,44 @@
                 <li class="breadcrumb-item active" aria-current="page">Monitores</li>
             </ol>
         </nav>
-        <div>
-            <h2>What is Lorem Ipsum?</h2>
-            <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div class="container">
+            <!-- La clase table-responsive es necesaria, para que cuando la tabla no quepa en la pantalla, se le aplique el estilo overflow: scroll -->
+            <div class="table-responsive">
+
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <th>Nombre</th>
+                        <th>Marca</th>
+                        <th>Frecuencia (Hz)</th>
+                        <th>Precio</th>
+                        <th>Más información</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monitor gamming</td>
+                            <td>Asus</td>
+                            <td>60 Hz</td>
+                            <td>$120</td>
+                            <td><a href="">Ver</a></td>
+                        </tr>
+                        <tr>
+                            <td>Monitos gamming profesional</td>
+                            <td>MSI</td>
+                            <td>144 Hz</td>
+                            <td>$350</td>
+                            <td><a href="">Ver</a></td>
+                        </tr>
+                        <tr>
+                            <td>Monitor basic</td>
+                            <td>Samsung</td>
+                            <td>60 Hz</td>
+                            <td>$50</td>
+                            <td><a href="">Ver</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
     </div>
 
     <footer>
