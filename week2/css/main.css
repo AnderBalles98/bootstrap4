@@ -1,0 +1,63 @@
+.jumbotron {
+    background-color: yellow;
+    color: black;
+}
+
+.card-hotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-hotel .btn{
+    width: 100%;
+}
+
+body > div.container{
+    margin-bottom: 2vh;;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    overflow: hidden;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer div.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+footer div.col p {
+    margin: 0;
+    
+}
+
+.icon-text {
+    padding-right: 0.5em;
+}
+
+.breadcrumb a {
+    color: gray;
+}
+
+.breadcrumb a:hover {
+    color: black;
+}
+
+textarea.form-control {
+    resize: none;
+}
