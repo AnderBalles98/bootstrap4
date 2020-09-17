@@ -75,7 +75,7 @@ textarea.form-control {
     flex-direction: column;
 }
 
-.card-body button {
+.card-body .buy-info {
     margin-top: auto;
 }
 
@@ -126,7 +126,6 @@ nav {
     width: auto;
     max-width: 100%;
 }
-
 
 .card .card-text {
     overflow: hidden;
