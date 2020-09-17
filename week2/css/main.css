@@ -61,3 +61,61 @@ footer div.col p {
 textarea.form-control {
     resize: none;
 }
+
+.cardContainer {
+    margin-bottom: 2vh;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body button {
+    margin-top: auto;
+}
+
+.card-header{
+    position: absolute;
+    background-color: rgba(211, 211, 211, 0.9);
+    font-weight: bold;
+    width: 100%;
+    margin: 0 -1.25rem;
+    text-align: center;
+    color: darkred;
+}
+
+.card .card-title {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.card .container.img{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.card .container.img img{
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+
+.card .card-text {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
