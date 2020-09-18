@@ -109,6 +109,10 @@ nav:hover{
     width: 100%;
 }
 
+.card .buy-info .btn{
+    width: 100%;
+}
+
 .card .card-title {
     overflow: hidden;
    text-overflow: ellipsis;
