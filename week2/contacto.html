@@ -47,14 +47,9 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Por favor, escriba su nombre" required>
+                        <input type="text" class="form-control" id="nombre" placeholder="Por favor, escriba su nombre"
+                            required>
                     </div>
-                    <div class="form-group col-md-6">
-                        <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Por favor, escriba su apellido" required>
-                    </div>
-                </div>
-                <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email"
@@ -62,27 +57,32 @@
                     </div>
 
                     <div class="form-group col-md-6">
-                        <label for="asunto">Asusnto</label>
+                        <label for="asunto">Asunto</label>
                         <input type="text" class="form-control" id="asunto"
                             placeholder="Por favor, escriba el asunto de su mensaje" required>
                     </div>
 
-                </div>
-                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="ciudad">Ciudad</label>
+                        <select name="ciudad" id="ciudad" class="form-control" required>
+                            <option selected disabled>Selecciona tu ciudad</option>
+                            <option>Bogotá</option>
+                            <option>Cali</option>
+                            <option>Medellín</option>
+                            <option>Barranquilla</option>
+                        </select>
+                    </div>
+
                     <div class="form-group col-md-12">
                         <label for="mensaje">Mensaje</label>
-                        <textarea class="form-control" id="mensaje"
-                            placeholder="Por favor, escriba su mensaje" rows="5" required></textarea>
+                        <textarea class="form-control" id="mensaje" placeholder="Por favor, escriba su mensaje" rows="5"
+                            required></textarea>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col">
+                    <div class="form-group col-md-12">
                         <input type="checkbox" id="isContactMe">
                         <label for="isContactMe">Quiero que me contacten</label>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col">
+                    <div class="form-group col-md-12">
                         <button class="btn btn-primary" type="submit">Enviar</button>
                     </div>
                 </div>
